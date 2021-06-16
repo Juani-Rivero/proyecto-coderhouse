@@ -1,0 +1,35 @@
+/*
+=============================================================
+                        FOOTER
+=============================================================
+*/
+
+
+footer {
+    background-color: $footer;
+    font-weight: 400;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-instagram {
+    color: $instagram;
+}
+
+.fa-facebook {
+    color: $facebook;
+}
+
+.fa-twitter {
+    color: $twitter;
+}
+
+.fa-pinterest {
+    color: $pinterest;
+}
+.contact {
+    display: flex;
+    vertical-align: baseline;
+}

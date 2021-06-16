@@ -1,0 +1,430 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+:root {
+    --cala: #faebd7;
+    --white: #ffffff;
+    --beige1: #D8CEC2;
+    --beige2: #DAC0A5;
+    --celeste: #BEBFC3;
+    --marron: #BA8565;
+    --hazel: #C2BAA1;
+    --fontcolor: #A47048;
+    --footer: #cfb7a4;
+}
+
+
+
+img {
+    max-width: 100%!important;
+    max-height: 600px;
+}
+body {
+    font-family: 'Jost', sans-serif;
+}
+.hide {
+    display: none;
+}
+p {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+.navbar-brand {
+    font-size: 4.5em;
+}
+.nav-link, .dropdown-item {
+    color: var(--fontcolor) !important;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.bg-navbar {
+    background-color: #ffffff;
+}
+.btn-primary {
+    background-color: var(--marron);
+    font-weight: 600;
+    border-color: var(--marron);
+}
+
+.botonContacto {
+    background-color: var(--cala);
+    font-weight: 900;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+header li {
+    padding: 5px 0;
+}
+
+.politicasContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cala);
+}
+
+.politicas {
+    padding: 20px 0;
+}
+
+.politicas h3 {
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+.politicasIcon {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+
+.destacados {
+    text-align: center;
+}
+
+.mainProducts {
+    display: flex;
+    flex-direction: column;
+}
+.mainProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+footer {
+    background-color: var(--footer);
+    font-weight: 400;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+/* 
+.column-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.column-1 h4 {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+}
+.column-1-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.column-2 h4 {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+}
+.column-2-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.column-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.column-3 h4 {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+}
+.column-3-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.copyright {
+    text-align: center;
+    font-weight: 400;
+} */
+
+.fa-instagram {
+    color: #c32aa3;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-twitter {
+    color: #00ACEE;
+}
+
+.fa-pinterest {
+    color: #C8232C;
+}
+.contact {
+    display: flex;
+    vertical-align: baseline;
+}
+.contactForm {
+    background-color: var(--cala);
+    max-width: 30%;
+    margin: auto;
+}
+
+.contactForm ul li {
+    padding: 5px 0;
+}
+.contactForm ul li:last-child {
+    text-align: right;
+    padding: 10px;
+}
+
+
+
+
+
+/* @media only screen and (min-width : 768px) {
+    body {
+        font-family: 'Jost', sans-serif;
+    }
+    
+    img {
+        max-width: 100%;
+        max-height: 600px;
+    }
+    .header {
+        align-items: unset;
+    }
+    .headerSection1 {
+        order: -2;
+    }
+    .headerSection2 {
+       display: flex;
+       justify-content: space-around;
+    }
+    .headerSection3 {
+        display: flex;
+        justify-content: center;
+        order: -1;
+    }
+    
+    i {
+        padding-right: 5px;
+    }
+    
+    .politicas {
+        font-size: 1.7em;
+    }
+    
+    .politicasContainer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    
+    .destacados {
+        text-align: center;
+        font-size: 3em;
+    }
+    .mainProducts {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .mainProduct {
+        flex-basis: 40%;
+    }
+    .about1 {
+        margin-bottom: 30px;
+    }
+    
+    .about2 {
+        margin-bottom: 30px;
+    }
+    
+    
+    .border {
+        display: block;
+        border-style: 10px solid black;
+    }
+    
+    .contactoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about3 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contactInput {
+        display: flex;
+        justify-content: space-between;
+    }    
+}
+
+@media only screen and (min-width : 992px) {
+    img {
+        max-height: 700px;
+    }
+    .navbar {
+        height: 8rem;
+     
+    }
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .headerSection3 {
+        order: 3;
+    }
+    .headerSection2 li {
+        padding: 0 20px;
+    }
+    .headerSection2 a:hover {
+        color: var(--cala);
+    }
+    .politicasContainer {
+        flex-direction: row;
+        background-color: white;
+        margin-top: 30px;
+    }
+    .politicas {
+        text-align: center;
+        transition: all 1s ease-in-out;
+    }
+
+    .politicas:hover, .politicas h3:hover, .politicas p:hover {
+        background-color: var(--beige2);
+        transform: translateY(30px);
+    }
+    .politicas h3 {
+        font-size: 1.5em;
+    }
+    .mainProduct {
+        flex-basis: 30%;
+    }
+    .footer {
+        display: block;
+        margin-bottom: 0;
+        width: 100%;
+        font-weight: 600;
+    }
+    .column-1,
+    .column-2,
+    .column-3 {
+        display: inline-block;
+        width: 33%;
+        margin: 0 auto;
+    }
+    .column-1 h4 {
+        text-align: start;
+    }
+    .column-2 h4 {
+        text-align: center;
+    }
+    .column-3 h4 {
+        text-align: end;
+    }
+    .column-1-1 {
+        display: block;
+    }
+    .column-2-2 {
+        display: block;
+        text-align: center;
+    }
+    .column-3-3 {
+        display: block;
+        text-align: end;
+    }
+} */
+
+.card {
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.card-img-top {
+    border-radius: 30px;
+}
+
+/* Whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#ffffff;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    font-family: 'Jost', sans-serif;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.float:hover {
+    color: #ffffff;
+}
+
+.contacto {
+    background-color: var(--beige2);
+    border-radius: 15px;
+}
+
+.btn-contacto {
+    margin: 20px;
+}
+
+.btn-contacto:hover {
+    background-color: var(--marron);
+    font-weight: 600;
+    border-color: var(--marron);
+}
+
+.about {
+    margin-top: 250px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.segunda-row {
+    margin-top: 150px;
+}
+
+.especieros {
+    margin-top: 200px;
+}

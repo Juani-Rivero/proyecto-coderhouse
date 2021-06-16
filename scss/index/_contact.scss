@@ -1,0 +1,39 @@
+/*
+======================
+        Contacto
+======================
+*/
+
+$margin: 100px;
+
+.contact {
+    display: flex;
+    vertical-align: baseline;
+}
+.contactForm {
+    background-color: $cala;
+    max-width: 30%;
+    margin: auto;
+}
+
+.contactForm ul li {
+    padding: 5px 0;
+}
+.contactForm ul li:last-child {
+    text-align: right;
+    padding: $margin/10;
+}
+.contacto {
+    background-color: $beige2;
+    border-radius: 15px;
+}
+
+.btn-contacto {
+    margin: $margin/5;
+}
+
+.btn-contacto:hover {
+    background-color: $marron;
+    font-weight: 600;
+    border-color: $marron;
+}

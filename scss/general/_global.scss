@@ -1,0 +1,61 @@
+/*
+=============================================================
+                        GLOBALES
+=============================================================
+*/
+@mixin max-sizes($width, $height) {
+    max-height: $height;
+    max-width: $width;
+ }
+@mixin links ($decoration, $color){
+    text-decoration: $decoration;
+    color: $color;
+}
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+// img {
+//     @include max-sizes(600px, 100% !important)
+// }
+img {
+    max-width: 100% !important;
+    max-height: 600px;
+}
+body {
+    font-family: 'Maleah', sans-serif;
+    font-weight: 300;
+}
+.hide {
+    display: none;
+}
+p {
+    max-width: 100%;
+}
+a {
+    @include links(none, black)
+}
+
+li {
+    list-style-type: none;
+}
+
+.card {
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.card-img-top {
+    border-radius: 30px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+h2,h3,h4,h5,h6{
+    font-weight: 300;
+}

@@ -1,0 +1,42 @@
+/* 
+*******************************************
+*       CSS GENERAL STYLES STYLES         *
+*******************************************
+*/
+
+
+@import 'general/variables';
+@import 'general/global';
+@import 'general/whatsapp';
+@import 'general/navbar';
+@import 'general/footer';
+@import 'mixins';
+
+
+
+/*
+*******************************************
+*       CSS INDEX STYLES                  *
+*******************************************
+*/
+
+@import 'index/politicas';
+@import 'index/destacados';
+@import 'index/contact';
+
+
+/* 
+*******************************************
+*       CSS ABOUT STYLES                  *
+*******************************************
+*/
+@import 'about/about';
+
+/* 
+*******************************************
+*       CSS ESPECIEROS STYLES             *
+*******************************************
+*/
+@import 'productos/especieros';
+
+
